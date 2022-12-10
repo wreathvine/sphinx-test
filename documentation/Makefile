@@ -21,6 +21,3 @@ help:
 
 html: Makefile
 	@$(SPHINXBUILD) -b html "$(SOURCEDIR)" "html" $(SPHINXOPTS) $(O)
-
-livehtml:
-    sphinx-autobuild -b html ./  ./html
